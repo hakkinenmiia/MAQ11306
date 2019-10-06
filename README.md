@@ -93,10 +93,12 @@ qqline(resid(s))
 
 #Significant difference
 #non-parametric data Kruskal-Wallis
-
 kruskal.test(BC1$Location~BC1$BC)
+
 #Kruskal-Wallis chi-squared = 4542.1, df = 4449, p-value = 0.1617
+
 kruskal.test(BC2$Location~BC2$BC)
+
 #Kruskal-Wallis chi-squared = 4291.7, df = 4245, p-value = 0.3044
 
 
